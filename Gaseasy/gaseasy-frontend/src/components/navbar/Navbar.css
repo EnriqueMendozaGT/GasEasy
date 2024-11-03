@@ -1,0 +1,60 @@
+.navbar {
+    position: sticky;
+    height: 4rem;
+    top: 0;
+    z-index: 1000;
+    border-radius: 50px;
+    padding-left: 1rem;
+    margin: -0.3rem 0rem 0rem 0rem;
+    border: 3px solid rgb(240, 240, 240);
+}
+
+.t1{
+    font-size: 2rem;
+    color: #fd5050;
+    font-weight: bold;
+}
+.t2{
+    font-size: 1.7rem;
+    color: #000;
+    font-weight: 500;
+}
+
+.navbar .nav-link {
+    color: #000;
+}
+
+.navbar .nav-link:hover {
+    color: #fd5050; /* Cambia el color al pasar el cursor */
+}
+
+.navbar .form-control {
+    width: 250px; /* Ajusta el ancho de la barra de búsqueda */
+}
+
+.btn2{
+    border: 2px solid rgb(255, 78, 78);
+    color: #fd5050;
+}
+
+.btn2:hover{
+    border: 2px solid rgb(255, 255, 255);
+    color: #fd5050;
+}
+
+.perfil{
+    width: 310px;
+}
+
+.perfil-header{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+}
+
+.custom-btn {
+    color: #fd5050;
+    padding: 10px 20px; /* Ajusta el padding según tus necesidades */
+    font-size: 1.3rem; /* Cambia el tamaño de la fuente */
+  }
+  

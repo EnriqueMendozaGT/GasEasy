@@ -1,0 +1,44 @@
+/* src/components/Sidebar.css */
+.sidebar {
+    height: 100vh;
+    transition: width 0.3s ease;
+    overflow: hidden;
+    background-color: #fc4242;
+    border-radius: 0px 25px 25px 0px;
+  }
+  
+  .sidebar.expanded {
+    width: 250px;
+  }
+  
+  .sidebar.collapsed {
+    width: 80px;
+  }
+  
+  .toggle-btn {
+    align-self: center;
+    font-size: 2rem;
+  }
+  
+  .nav-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+  }
+
+  .text-tittle{
+    font-size: 1.7rem;
+  }
+
+  .icon {
+    margin-right: 10px;
+  }
+
+  .nav-link:hover{
+    background-color:rgb(255, 195, 195);
+  }
+  
+  .nav-link .icon {
+    margin-right: 0.5rem;
+  }
+  

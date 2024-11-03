@@ -1,0 +1,48 @@
+.login-container {
+    height: 100vh;
+}
+
+.login-form {
+    flex: 1;
+    max-width: 30%;
+}
+
+.login-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-img {
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.icon-img img {
+    width: 100%;
+    height: auto;
+}
+
+.btn1 {
+    background-color: #fc4242;
+}
+
+.btn1:hover {
+    background-color: #ff6060;
+}
+
+.form-padding {
+    padding: 3rem;
+}
+
+.login-image img {
+    max-height: 100%;
+    width: auto;
+}
